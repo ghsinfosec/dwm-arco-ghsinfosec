@@ -1,0 +1,44 @@
+=====================
+## DWM KEYBINDINGS ##
+=====================
+Super + Shift + Enter = Launch terminal (st)
+Super + Shift + c     = Kill active window
+Super + Shift + q     = Quit dwm (restarts from .xinitrc)
+Super + Shift + x     = Logout (arcolinux-logout)
+
+Super + <number>      = Go to tag number specified
+Super + p             = Launch dmenu
+Super + w             = Launch web browser (brave)
+Super + j             = Go to next window in stack
+Super + k             = Go to previous window in stack
+Super + l             = Resize window right
+Super + h             = Resize window left
+
+Super + -             = Shrink gaps
+Super + =             = Increase gaps
+Super + Shift + =     = Reset gaps
+
+Super + y             = Toggle scratchpad (st)
+Super + u             = Toggle scratchpad (ranger)
+Super + c             = Toggle scratchpad (qalculate)
+Super + x             = Toggle scratchpad (keepassx)
+Super + s             = Toggle scratchpad (dmsearch - web search)
+Super + v             = Toggle scratchpad (pulsemixer volume control)
+
+Super + Shift + h     = Show keybindings.txt
+
+====================
+## ST KEYBINDINGS ##
+====================
+Alt + Home          = Zoom reset
+Alt + Shift + j     = Zoom out
+Alt + Shift + k     = Zoom in
+
+Alt + k             = Scroll up 1 line
+Alt + j             = Scroll down 1 line
+Alt + Page_Up       = Scroll up 1 page
+Alt + Page_Down     = Scroll down 1 page
+
+Alt + c             = Copy
+Alt + v             = Paste
+

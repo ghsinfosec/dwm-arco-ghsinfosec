@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cat $HOME/dwm-arco-ghsinfosec/scripts/keybindings.txt | dmenu -i -l 20 -p "Search: "
