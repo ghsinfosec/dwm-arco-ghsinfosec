@@ -30,15 +30,15 @@ Super + Shift + h     = Show keybindings.txt
 ====================
 ## ST KEYBINDINGS ##
 ====================
-Alt + Home          = Zoom reset
-Alt + Shift + j     = Zoom out
-Alt + Shift + k     = Zoom in
+Ctrl + Shift + Home  = Zoom reset
+Ctrl + Shift + j     = Zoom out
+Ctrl + Shift + k     = Zoom in
 
 Alt + k             = Scroll up 1 line
 Alt + j             = Scroll down 1 line
-Alt + Page_Up       = Scroll up 1 page
-Alt + Page_Down     = Scroll down 1 page
+Shift + Page_Up       = Scroll up 1 page
+Shift + Page_Down     = Scroll down 1 page
 
-Alt + c             = Copy
-Alt + v             = Paste
+Ctrl + Shift + c             = Copy
+Ctrl + Shift + v             = Paste
 
