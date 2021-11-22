@@ -115,6 +115,7 @@ static const char *webcmd[] = { "brave", NULL };
 static const char *dmsearch[] = { "dmsearch", NULL };
 static const char *showkeys[] = { "showkeys", NULL };
 static const char *logout[] = { "arcolinux-logout", NULL };
+static const char *emacscmd[] = { "emacsclient", "-c", "-a", "'emacs'", NULL };
 
 #include "selfrestart.c"
 #include "shiftview.c"
@@ -129,6 +130,7 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY|ShiftMask,             XK_h,      spawn,          {.v = showkeys } },
 	{ MODKEY|ShiftMask,             XK_x,      spawn,          {.v = logout } },
+	{ MODKEY|ShiftMask,             XK_e,      spawn,          {.v = emacscmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
