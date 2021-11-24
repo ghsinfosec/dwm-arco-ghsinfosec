@@ -41,6 +41,7 @@ const char *spcmd2[] = {"st", "-n", "spfm", "-g", "144x41", "-e", "ranger", NULL
 const char *spcmd3[] = {"keepassxc", NULL };
 const char *spcmd4[] = {"qalculate-gtk", NULL };
 const char *spcmd5[] = {"st", "-n", "vol", "-g", "144x41", "-e", "pulsemixer", NULL };
+const char *spcmd6[] = {"mousepad", NULL };
 static Sp scratchpads[] = {
 	/* name          cmd  */
 	{"spterm",      spcmd1},
@@ -48,6 +49,7 @@ static Sp scratchpads[] = {
 	{"keepassxc",   spcmd3},
 	{"qalculate-gtk",   spcmd4},
 	{"vol",   spcmd5},
+	{"mousepad",   spcmd6},
 };
 
 /* tagging */
@@ -76,6 +78,7 @@ static const Rule rules[] = {
 	{ NULL,		  "keepassxc",	NULL,		SPTAG(2),		1,			 -1 },
 	{ NULL,		  "qalculate-gtk",	NULL,		SPTAG(3),		1,			 -1 },
 	{ NULL,		  "vol",	    NULL,		SPTAG(4),		1,			 -1 },
+	{ NULL,		  "mousepad",	    NULL,		SPTAG(5),		1,			 -1 },
 };
 
 /* layout(s) */
@@ -177,6 +180,7 @@ static Key keys[] = {
 	{ MODKEY,            			XK_x,	   togglescratch,  {.ui = 2 } },
 	{ MODKEY,            			XK_c,	   togglescratch,  {.ui = 3 } },
 	{ MODKEY,            			XK_v,	   togglescratch,  {.ui = 4 } },
+	{ MODKEY,            			XK_o,	   togglescratch,  {.ui = 5 } },
 
 
 	TAGKEYS(                        XK_1,                      0)
