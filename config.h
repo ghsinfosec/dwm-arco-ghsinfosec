@@ -70,6 +70,7 @@ static const Rule rules[] = {
 	{ "Arcolinux-welcome-app.py",  NULL,       NULL,       0,            1,           -1 },
 	{ "Arcolinux-calamares-tool.py",  NULL,       NULL,       0,            1,           -1 },	
 	{ "zoom",	  NULL,			NULL,		1 << 8,			1,			 -1 },
+	{ "VirtualBox Manager",	  NULL,			NULL,		1 << 2,			1,			 -1 },
 	{ NULL,		  "spterm",		NULL,		SPTAG(0),		1,			 -1 },
 	{ NULL,		  "spfm",		NULL,		SPTAG(1),		1,			 -1 },
 	{ NULL,		  "keepassxc",	NULL,		SPTAG(2),		1,			 -1 },
@@ -116,6 +117,7 @@ static const char *dmsearch[] = { "dmsearch", NULL };
 static const char *showkeys[] = { "showkeys", NULL };
 static const char *logout[] = { "arcolinux-logout", NULL };
 static const char *emacscmd[] = { "emacsclient", "-c", "-a", "'emacs'", NULL };
+static const char *vboxcmd[] = { "virtualbox", NULL };
 
 #include "selfrestart.c"
 #include "shiftview.c"
@@ -131,6 +133,7 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_h,      spawn,          {.v = showkeys } },
 	{ MODKEY|ShiftMask,             XK_x,      spawn,          {.v = logout } },
 	{ MODKEY|ShiftMask,             XK_e,      spawn,          {.v = emacscmd } },
+	{ MODKEY|ShiftMask,             XK_v,      spawn,          {.v = vboxcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
