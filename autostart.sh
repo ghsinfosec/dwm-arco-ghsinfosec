@@ -19,7 +19,7 @@ run "dex $HOME/.config/autostart/arcolinux-welcome-app.desktop"
 
 run "nm-applet"
 run "pamac-tray"
-run "variety"
+#run "variety"
 run "xfce4-power-manager"
 run "blueberry-tray"
 run "/usr/lib/xfce4/notifyd/xfce4-notifyd"
@@ -32,7 +32,8 @@ sxhkd -c ~/.config/arco-dwm/sxhkd/sxhkdrc &
 #run "nitrogen --restore"
 #run "conky -c $HOME/.config/arco-dwm/system-overview"
 #you can set wallpapers in themes as well
-feh --bg-fill /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg &
+#feh --bg-fill /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg &
+feh --bg-fill /home/heath/Pictures/wallpaper/winter-fox.jpeg &
 
 #run applications from startup
 
