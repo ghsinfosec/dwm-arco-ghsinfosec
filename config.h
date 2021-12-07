@@ -74,6 +74,8 @@ static const Rule rules[] = {
 	{ "Arcolinux-calamares-tool.py",  NULL,       NULL,       0,            1,           -1 },	
 	{ "zoom",	  NULL,			NULL,		1 << 8,			1,			 -1 },
 	{ "VirtualBox Manager",	  NULL,			NULL,		1 << 2,			1,			 -1 },
+	{ "burp-StartBurp",	  NULL,			NULL,		1 << 3,			1,			 -1 },
+	{ "chromium-browser (/home/heath/.BurpSuite/pre-wired-browser)",	  NULL,			NULL,		1 << 3,			1,			 -1 },
 	{ NULL,		  "spterm",		NULL,		SPTAG(0),		1,			 -1 },
 	{ NULL,		  "spfm",		NULL,		SPTAG(1),		1,			 -1 },
 	{ NULL,		  "keepassxc",	NULL,		SPTAG(2),		1,			 -1 },
